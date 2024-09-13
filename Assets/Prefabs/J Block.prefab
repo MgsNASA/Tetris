@@ -45,6 +45,8 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -125,6 +127,8 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -171,7 +175,7 @@ GameObject:
   - component: {fileID: 1180035624987581182}
   - component: {fileID: 1180035624987581183}
   m_Layer: 0
-  m_Name: J Tetromino
+  m_Name: J Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -207,8 +211,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b3d06810da0048cf921c1bdfd46bad6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationPoint: {x: 1, y: 0, z: 0}
-  fallTime: 0.8
+  pivot: {fileID: 0}
 --- !u!1 &1180035625564286658
 GameObject:
   m_ObjectHideFlags: 0
@@ -254,6 +257,8 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -334,6 +339,8 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
